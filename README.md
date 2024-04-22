@@ -46,8 +46,10 @@ In this step, we perform different sets of validation on the given set of traini
 
 ### Prediction Data Description
  
-Client will send the data in multiple set of files in batches at a given location. Data will contain Wafer names and 590 columns of different sensor values for each wafer. 
+Client will send the data in multiple set of files in batches at a given location. Data will contain Wafer names and 590 columns of different sensor values for each wafer.
+
 Apart from prediction files, we also require a "schema" file from client which contains all the relevant information about the training files such as:
+
 Name of the files, Length of Date value in FileName, Length of Time value in FileName, Number of Columns, Name of the Columns and their datatype.
  Data Validation
  
