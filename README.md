@@ -19,6 +19,7 @@ The client will send data in multiple sets of files in batches at a given locati
 2. "-1" represents Good Wafer.
    
 Apart from training files, we also require a "schema" file from the client, which contains all the relevant information about the training files such as:
+
 Name of the files, Length of Date value in FileName, Length of Time value in FileName, Number of Columns, Name of the Columns, and their datatype.
  
 ### Data Validation 
